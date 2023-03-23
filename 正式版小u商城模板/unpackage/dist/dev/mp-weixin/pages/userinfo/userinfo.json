@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "编辑用户信息",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "u-radio-group": "/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/uview-ui/components/u-radio/u-radio",
+    "u-picker": "/uview-ui/components/u-picker/u-picker",
+    "region-picker": "/components/region/w-picker"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "",
+  "pullRefresh": false,
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-picker": "/uview-ui/components/u-picker/u-picker"
+  }
+}

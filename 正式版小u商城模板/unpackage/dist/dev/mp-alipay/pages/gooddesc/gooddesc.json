@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "商品详情",
+  "pullRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-badge": "/uview-ui/components/u-badge/u-badge"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "购物车",
+  "component": true,
+  "usingComponents": {
+    "cartnull": "/components/cartnull/cartnull"
+  }
+}

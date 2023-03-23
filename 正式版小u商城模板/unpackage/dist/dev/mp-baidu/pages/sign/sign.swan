@@ -1,0 +1,1 @@
+<view><sw-calendar bind:tapDate="__e" vue-id="0a995bf1-1" data-event-opts="{{[['^tapDate',[['tapDate']]]]}}"></sw-calendar></view>

@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/user/user",
+    "pages/cate/cate",
+    "pages/goodlist/goodlist",
+    "pages/gooddesc/gooddesc",
+    "pages/order/order",
+    "pages/login/login",
+    "pages/textlogin/textlogin",
+    "pages/search/search",
+    "pages/orderlist/orderlist",
+    "pages/address/address",
+    "pages/address/addSite",
+    "pages/pay/pay",
+    "pages/userinfo/userinfo",
+    "pages/active/active",
+    "pages/ceshi/ceshi",
+    "pages/sign/sign",
+    "pages/mycode/mycode"
+  ],
+  "subPackages": [],
+  "window": {
+    "titleBarColor": "#ff6040",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#000",
+    "selectedColor": "#ff750b",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "商城",
+        "icon": "static/tabbar/home/unselected.png",
+        "activeIcon": "static/tabbar/home/selected.png"
+      },
+      {
+        "pagePath": "pages/cate/cate",
+        "name": "分类",
+        "icon": "static/tabbar/classify/unselected.png",
+        "activeIcon": "static/tabbar/classify/selected.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "name": "购物车",
+        "icon": "static/tabbar/shoppingcart/unselected.png",
+        "activeIcon": "static/tabbar/shoppingcart/selected.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "name": "我的",
+        "icon": "static/tabbar/user/unselected.png",
+        "activeIcon": "static/tabbar/user/selected.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

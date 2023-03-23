@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "component": true,
+  "usingComponents": {
+    "sw-calendar": "/components/sw-calendar/sw-calendar"
+  }
+}

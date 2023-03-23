@@ -1,0 +1,128 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import "../../../common/icon.css"; */
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.qrimg {
+	display: flex;
+	justify-content: center;
+}
+.qrimg-i{
+	margin-right: 10px;
+}
+slider {
+	width: 100%;
+}
+input {
+	width: 100%;
+	margin-bottom: 20rpx;
+}
+.btns {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+button {
+	width: 100%;
+	margin-top: 10rpx;
+}
+

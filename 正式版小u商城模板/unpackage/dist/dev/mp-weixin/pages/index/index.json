@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "小U商城",
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-count-down": "/uview-ui/components/u-count-down/u-count-down",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection",
+    "u-lazy-load": "/uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-skeleton": "/uview-ui/components/u-skeleton/u-skeleton"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="calendar-content"><image class="bjimage" src="../../static/img/rili.jpg" mode="widthFix"></image><view class="signbox"><uni-calendar vue-id="0a9b32a0-1" selected="{{selected}}" showMonth="{{false}}" data-event-opts="{{[['^change',[['change']]],['^monthSwitch',[['monthSwitch']]]]}}" bind:change="__e" bind:monthSwitch="__e" bind:__l="__l"></uni-calendar></view></view>

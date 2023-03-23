@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "支付页面",
+  "enablePullDownRefresh": false,
+  "component": true,
+  "usingComponents": {}
+}

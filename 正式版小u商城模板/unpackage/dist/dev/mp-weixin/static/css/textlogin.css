@@ -1,0 +1,61 @@
+.login_box{
+		height: 100%;
+		background-color: #f2f2f2;
+		overflow: hidden;
+	}
+	.text_login{
+		background-color: #FFFFFF;
+		margin: 20rpx 20rpx 0;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.login_logo{
+		width: 364rpx;
+		height: 96rpx;
+		margin: 488rpx 0 88rpx 0;
+	}
+	
+	.login_phone{
+		height: 60rpx;
+		width: 610rpx;
+		border-bottom: 1rpx solid #CCCCCC;
+		display: flex;
+		color: #666666;
+		font-size: 24rpx;
+	}
+	input{
+		flex: 1;
+		margin-left: 15rpx;
+	}
+	.login_code{
+		height: 60rpx;
+		width: 610rpx;
+		border-bottom: 1rpx solid #CCCCCC;
+		display: flex;
+		justify-content: space-between;
+		color: #666666;
+		font-size: 24rpx;
+		margin-top: 34rpx;
+		
+	}
+	.login_code view{
+		width: 160rpx;
+		line-height: 48rpx;
+		height: 48rpx;
+		text-align: center;
+		background-color: #CCCCCC;
+		font-size: 20rpx;
+		color: #FFFFFF;
+		
+	}
+	.login_but{
+		width:610rpx;
+		line-height: 49px;
+		background-color: #CCCCCC;
+		text-align: center;
+		font-size: 32rpx;
+		color: #FFFFFF;
+		margin-top: 40rpx;
+	}

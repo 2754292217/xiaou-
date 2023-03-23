@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "商品分类",
+  "pullRefresh": false,
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search"
+  }
+}

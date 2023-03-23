@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "购物车",
+  "pullRefresh": false,
+  "usingComponents": {
+    "cartnull": "/components/cartnull/cartnull"
+  }
+}

@@ -1,0 +1,85 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 引入样式 */
+.payicon{width: 30rpx;height: 30rpx;margin-right: 20rpx;}
+.payButton{height: 80rpx;width: 624rpx;position: fixed;
+	bottom:120rpx;background: #0bbaef;left:50%;margin-left:-312rpx;
+	text-align: center;line-height: 80rpx;color: #fff;font-size: 28rpx;
+	border-radius: 80rpx;}
+.payType{width: 650rpx;margin:58rpx auto 0;}
+.payType .payTypeTitle{font-size: 28rpx;line-height: 55rpx;}
+.payType .payTypeItem{display: flex;justify-content: space-between;
+	height: 76rpx;align-items: center;}
+.payTypeItemLeft{font-size: 28rpx;display: flex;align-items: center;}
+.payType .payTypeItem ._i{font-size: 32rpx;margin-right: 20rpx;display: block;}
+.payType .payTypeItem radio{-webkit-transform: scale(0.7);transform: scale(0.7);}
+/* switch */
+.payNumber{font-size: 24rpx;color: #999;text-align: center;padding-top: 54rpx;}
+.payPrice{font-size: 70rpx;color: #000;height:120rpx;display: flex;align-items: center;
+	justify-content: center;}
+.payPrice text{font-size: 28rpx;}
+.payTime{font-size: 24rpx;color: #999;line-height: 56rpx;text-align: center;}
+

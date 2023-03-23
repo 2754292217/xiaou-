@@ -1,0 +1,30 @@
+{
+    "appid": "touristappid",
+    "appInfo": {},
+    "appkey": "",
+    "condition": {
+        "swan": {
+            "current": 0,
+            "list": [
+                {
+                    "name": "",
+                    "path": "",
+                    "query": "",
+                    "id": 0
+                }
+            ]
+        }
+    },
+    "setting": {
+        "urlCheck": true
+    },
+    "libVersion": "",
+    "projectname": "shop",
+    "host": "baiduboxapp",
+    "swan": {
+        "baiduboxapp": {
+            "swanJsVersion": "3.260.35",
+            "extensionJsVersion": "1.20.6"
+        }
+    }
+}

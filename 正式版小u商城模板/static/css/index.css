@@ -1,0 +1,353 @@
+/* content */
+	.content{
+		background-color: #f2f2f2;
+		height: 100%;
+	}
+	/* head区域 */
+	.head{
+		width: 100%;
+		height: 160rpx;
+		background: linear-gradient(#FF6040,#FF8A80);
+	}
+	.search{
+		height: 80rpx;
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.search image:nth-of-type(1){
+		width: 40rpx;
+		height: 44rpx;
+	}
+	.search image:nth-of-type(2){
+		width: 182rpx;
+		height: 48rpx;
+	}
+	.search image:nth-of-type(3){
+		width: 40rpx;
+		height: 40rpx;
+	}
+	/* #ifdef MP-ALIPAY */
+	.dp{
+		width: 40rpx;
+		height: 40rpx;
+	}
+	/* #endif */
+	.search .search_input{
+		width: 340rpx;
+		height: 64rpx;
+		background-color: white;
+		border-radius: 8rpx;
+		/* display: flex;
+		align-items: center;
+		justify-content: center; */
+	}
+	
+	/* #ifdef MP-BAIDU */
+	/* .search_input icon{margin-left: 60rpx;} */
+	/* #endif */
+	
+	/* .search_input input{
+		padding-left: 10rpx;
+		font-size: 22rpx;
+		height: 44rpx;
+		width: 140rpx;
+	} */
+	.cate{
+		display: flex;
+	}
+	.catenavtab{
+		width: 620rpx;
+	}
+/* 	.catenav{
+		width: 100%;
+		white-space: nowrap;
+		width: 620rpx;
+	}
+	.catenav view{
+		display: inline-block;
+		color: white;
+		font-size: 28rpx;
+		text-align: center;
+		line-height: 70rpx;
+		margin: 0 28rpx 0 28rpx;
+	} */
+/* 	.catenav .active{
+		border-bottom: 5rpx solid white;
+		font-size: 28rpx;
+		font-weight: bold;
+	} */
+	.category{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 130rpx; 
+	}
+	.category image{
+		width: 26rpx;
+		height: 28rpx;
+	}
+	.category text{
+		margin-left:15rpx;
+		color: white;
+		font-size: 26rpx;
+	}
+	/* swiper区域 */
+	.swiper_banner{
+		margin: 20rpx 0;
+	}
+	/* 快速导航区域 */
+	.quicknav{
+		height: 140rpx;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		background-color: white;
+	}
+	.quicknav .row{
+		width: 150rpx;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		font-size: 15rpx;
+	}
+	.quicknav .row image{
+		width: 64rpx;
+		height: 64rpx;
+		margin-bottom: 10rpx;
+	}
+	/* 秒杀热推区域 */
+	.seckill {
+		height: 350rpx;
+		background-color: #f1f1f1;
+		display: flex;
+		margin: 20rpx 20rpx;
+	}
+	
+	/* 秒杀热推左侧区域 */
+	.seckill .leftseckill {
+		flex: 1;
+		border-right: 1rpx solid #F1F1F1;
+		background-color: white;
+		background: url('../../static/img/pic/plate/index/kingkong/big.png') no-repeat;
+		background-size: cover;
+	}
+	.leftseckill .title {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.left_seckill_info{
+		margin-left: 20rpx;
+	}
+	.seckill_img{
+		width: 180rpx;
+		height: 180rpx;
+		border-radius: 100%;
+		border: 1rpx solid #ff6040;
+		margin:50rpx  16rpx ;
+	}
+	.title text:nth-of-type(1){
+		color: #85a642;
+		font-weight: bold;
+		margin: 20rpx 0 10rpx 20rpx;
+	}
+	.title text:nth-of-type(2){
+		font-size: 15rpx;
+		color: #555555;
+		margin: 20rpx 20rpx 0 0;
+	}
+	
+	/* 秒杀热推右侧区域 */
+	.seckill .rightseckill {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		margin-left: 10rpx;
+		overflow: hidden;
+	}
+	.rightseckill view {
+		flex: 1; 
+	}
+	.rightseckill .top{
+		background: url('../../static/img/pic/plate/index/kingkong/small.png') no-repeat;
+		background-size: cover;
+	}
+	.rightseckill .top view:nth-of-type(1){
+		color: #ff6040;
+		font-weight: bold;
+		margin: 20rpx 0 10rpx 20rpx;
+	}
+	.rightseckill .top view:nth-of-type(2){
+		color: #ff6040;
+		font-size: 15rpx;
+		margin: 20rpx 0 0 20rpx;
+	}
+	.rightseckill .top view:nth-of-type(3){
+		color: #ff6040;
+		font-size: 15rpx;
+		color: white;
+		margin: 10rpx 0 0 20rpx;
+		background: linear-gradient(#ff6040,#ff9878);
+		border-top-right-radius: 30rpx;
+		border-bottom-right-radius: 30rpx;
+		width:125rpx;
+		line-height: 40rpx;
+		text-align: center;
+	}
+	.rightseckill .bottom {
+		margin-top: 10rpx;
+		background: url('../../static/img/pic/plate/index/kingkong/02.png')no-repeat;
+		background-size: cover;
+	}
+	.rightseckill .bottom view:nth-of-type(1){
+		color: #af40ff;
+		font-weight: bold;
+		margin: 20rpx 0 10rpx 20rpx;
+	}
+	.rightseckill .bottom view:nth-of-type(2){
+		color: #af40ff;
+		font-size: 15rpx;
+		margin: 20rpx 0 0 20rpx;
+	}
+	.rightseckill .bottom view:nth-of-type(3){
+		color: #af40ff;
+		font-size: 15rpx;
+		color: white;
+		margin: 10rpx 0 0 20rpx;
+		background: linear-gradient(#af40ff,#ef85ff);
+		border-top-right-radius: 30rpx;
+		border-bottom-right-radius: 30rpx;
+		width:125rpx;
+		line-height: 40rpx;
+		text-align: center;
+	}
+	.rightseckill .opacity{
+		opacity: 0.3;
+	}
+	
+	/* 推荐全球商品区域 */
+	.tuijian{
+		width: 710rpx;
+		height: 300rpx;
+		margin:0 20rpx 0;
+		background-color: white;
+	}
+	.tuijian .tuijian_title{
+		height: 86rpx;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		color: #999999;
+	}
+	.tuijian .tuijian_title text{
+		flex: 1;
+		text-align: center;
+		font-size: 28rpx;
+	}
+	.tuijian .tuijian_title .tuijian_active{
+		font-weight: bold;
+		color: #FF6040;
+		font-size: 32rpx;
+	}
+	.tuijian_scroll_x{
+		width: 690rpx;
+		height: 166rpx;
+		white-space: nowrap;
+		margin: 0 10rpx 0 10rpx;
+	}
+	.tuijian_scroll_x .tuijian_scroll_x_row{
+		display: inline-block;
+		margin: 0 0 0 10rpx;
+	}
+	.tuijian_scroll_x .tuijian_scroll_x_row image{
+		width: 160rpx;
+		height: 165.52rpx;
+	}
+	
+	
+	
+	/* 商品推荐区域	 */
+	.recommendgood {
+		margin: 0 20rpx 0 20rpx;
+		margin-top: 15rpx;
+		background-color: white;
+	}
+	
+	.recommendnav{
+		width: 100%;
+	}
+	.recommendnav uni_view{
+		/* border-color: white; */
+	}
+	
+	
+	/* 推荐商品详情 */
+	.recommendlist {
+		display: flex;
+		flex-direction: column;
+		margin-top:20rpx;
+	}
+	
+	.recommendlist .recommendrow {
+		margin: 0 20rpx 20rpx 20rpx;
+		height: 325rpx;
+		/* #ifndef APP-PLUS */
+		box-shadow: 5rpx 10rpx 5rpx #3333;
+		/* #endif */
+		border: 1rpx solid #DDD;
+		position: relative;
+	}	
+	.recommendrow  .image {
+		position: absolute;
+		top: 65rpx;
+		left: 20rpx;
+		width: 200rpx;
+		height: 200rpx;
+	}
+	
+	.recommendrow .recommendrowinfo {
+		position: absolute;
+		height: 210rpx;
+		top: 60rpx;
+		left: 240rpx;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	
+	.recommendrowinfo text:nth-of-type(1) {
+		color: black;
+	}
+	
+	.recommendrowinfo text:nth-of-type(2) {
+		color: red;
+	}
+	
+	.recommendrowinfo text:nth-of-type(3) {
+		color: #ccc;
+		text-decoration: line-through;
+		font-size: 24rpx;
+	}
+	
+	.recommendrowinfo text:nth-of-type(4) {
+		color: white;
+		background-color: #ffa500;
+		border-radius: 10rpx;
+		width: 160rpx;
+		line-height: 55rpx;
+		text-align: center;
+		font-size: 28rpx;
+	}
+	
+	.recommendnav .recommendactive {
+		background-color: #FF6040;
+		color: white;
+	}
+	
+	.topview{
+		height: var(--window-bottom);
+		width: 100%;
+	}

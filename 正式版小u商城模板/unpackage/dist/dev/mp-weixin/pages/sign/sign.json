@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#FFB32F",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-calendar": "/components/uni-calendar/uni-calendar",
+    "uni-section": "/components/uni-section/uni-section"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "商品搜索",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search"
+  }
+}

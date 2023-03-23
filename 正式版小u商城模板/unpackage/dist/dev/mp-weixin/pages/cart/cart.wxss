@@ -1,0 +1,330 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 引入样式文件 */
+checkbox-group.data-v-0f00adf4{
+		display: inline-block;
+}
+.cart_box.data-v-0f00adf4{
+			background-color: #f2f2f2;
+			height: 100vh;
+}
+.cart_box .cart_head.data-v-0f00adf4{
+		height: 136rpx;
+		width: 100%;
+		position: fixed;
+		top: 0px;
+		left: 0;
+		z-index: 2;
+}
+.cart_head .cart_menu.data-v-0f00adf4{
+		height: 64rpx;
+		width: 100%;
+		background: linear-gradient(#FF6040,#FF8A80);
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+}
+.cart_head .cart_menu text.data-v-0f00adf4{
+		font-size: 28rpx;
+		color: #FFF3F2;
+}
+.cart_head .cart_menu .active.data-v-0f00adf4{
+		color: #FFFFFF;
+		font-size: 32rpx;
+}
+.cart_head .cart_ticket.data-v-0f00adf4{
+		position: relative;
+		background-color: white;
+		width: 100%;
+		height: 72rpx;
+}
+.cart_head .cart_ticket checkbox.data-v-0f00adf4{
+		position: absolute;
+		top: 10rpx;
+		left: 20rpx;
+}
+.cart_head .cart_ticket .cart_ticket_text1.data-v-0f00adf4{
+		position: absolute;
+		top: 10rpx;
+		left: 100rpx;
+		font-size: 32rpx;
+		color: #333333;
+}
+.cart_head .cart_ticket .cart_ticket_text2.data-v-0f00adf4{
+		position: absolute;
+		top: 20rpx;
+		right: 100rpx;
+		font-size: 24rpx;
+		color: #333333;
+}
+.cart_head .cart_ticket .cart_ticket_text3.data-v-0f00adf4{
+		position: absolute;
+		top: 20rpx;
+		right: 40rpx;
+		font-size: 24rpx;
+		color: #FF6040;
+}
+.scroll-view_H.data-v-0f00adf4 {
+		white-space: nowrap; 
+		display: flex;
+		width: 100%;
+		height: 256rpx;
+	/* 	border: 1rpx solid #F1F1F1; */
+}
+.container.data-v-0f00adf4{overflow: hidden;}
+.top.data-v-0f00adf4{
+		margin-bottom: 180rpx;
+		margin-top: 156rpx;
+}
+.cartInfo.data-v-0f00adf4{
+		padding-top: 25rpx;
+		height: 256rpx;
+		width: 750rpx;
+		display: inline-block;	
+		/* 靠上 */
+		vertical-align:top; 
+		background-color: white;
+}
+.cartDel.data-v-0f00adf4{
+		height: 256rpx;
+		width: 110rpx;
+		background: #FF6040;
+		display: inline-block;
+		text-align: center;	
+		line-height: 256rpx;
+		color: #FFFFFF;
+}
+/* 隐藏滚动条 */
+.data-v-0f00adf4::-webkit-scrollbar {
+	  width: 0;
+	  height: 0;
+	  color: transparent;
+}
+.cartInfo_image  image.data-v-0f00adf4{
+		width: 216rpx;
+		height: 216rpx;
+}
+.cartInfochild.data-v-0f00adf4{
+		display: flex;
+		height: 200rpx;
+}
+.cartInfo_info.data-v-0f00adf4{
+		display: flex;
+		flex-direction: column;
+		width: 320rpx;
+		padding-left: 20rpx;
+}
+.cartInfo_info label.data-v-0f00adf4{
+		margin-top: 15rpx;
+}
+.cartInfo_info text.data-v-0f00adf4:nth-of-type(2){
+		font-size:20rpx;
+		color: #999999;
+		text-decoration: line-through;
+}
+.cartInfo_switch.data-v-0f00adf4{
+		width: 90rpx;
+}
+.cartInfo_image.data-v-0f00adf4{
+		width: 216rpx;
+}
+.common.data-v-0f00adf4{
+		height: 200rpx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+/* 加减数量 */
+.cartInfo_num_child.data-v-0f00adf4{
+		margin-top: 134rpx;
+		/* border: 2rpx solid #AAAAAA; */
+		border-radius: 10rpx;
+		height: 50rpx;
+		width: 150rpx;
+		display: flex;
+}
+.cartInfo_num_child label.data-v-0f00adf4{
+		/* flex: 1; */
+		line-height: 40rpx;
+		text-align: center;
+		font-size: 32rpx;
+		font-weight: bold;
+}
+.cartInfo_num_child label.data-v-0f00adf4:nth-of-type(2){
+		background-color: #F2F2F2;
+		width: 80rpx;
+		height: 40rpx;
+		font-size: 20rpx;
+		font-weight: normal;
+}
+/* 底部 */
+.foot.data-v-0f00adf4{
+		width: 100%;
+		height: 100rpx;
+		border-top: 1px solid #F1F1F1;
+		position: fixed;
+		bottom: 0px;
+		background: #FFFFFF;
+		display: flex;
+}
+.footd1.data-v-0f00adf4{
+		width: 200rpx;
+		height: 100%;
+		line-height: 100rpx;
+		padding-left: 20rpx;
+}
+.footd2.data-v-0f00adf4{
+		width: 300rpx;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+}
+.footd2sp2.data-v-0f00adf4{
+		font-size: 20rpx;
+		color: #999999 ;
+}
+.footd3.data-v-0f00adf4{
+		width:220rpx;
+		height: 100%;
+		background: #FF6040 ;
+		color: #fff;
+		font-size: 30rpx;
+		text-align: center;
+		line-height: 100rpx ;
+}
+.cartInfo_image_img.data-v-0f00adf4 {
+		width: 120rpx;
+		height: 120rpx;
+}
+

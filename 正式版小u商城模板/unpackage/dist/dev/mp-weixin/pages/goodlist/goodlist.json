@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "商品列表",
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-notice-bar": "/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-lazy-load": "/uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-empty": "/uview-ui/components/u-empty/u-empty"
+  }
+}
